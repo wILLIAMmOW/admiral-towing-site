@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Admiral Towing and Salvage LLC</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+<!-- I already have a good chunk of experince with this so I spent a good chunk of time messing with this style, this will hopefull evolve into a site for one of my family members buisness over the summer -->
+
+    <style>
+      body {
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f9fc;
+        color: #222;
+      }
+
+      header {
+        background-color: #002a4e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #004b7c;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        padding: 20px;
+        max-width: 960px;
+        margin: auto;
+      }
+
+      section {
+        margin-bottom: 30px;
+      }
+
+      footer {
+        background-color: #002a4e;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <!-- I included the body element below which is not part of the html version or the head to make
+    make sure you include it above your HTML code -->
+  <body>
+    <header>
+      <h1>Admiral Towing and Salvage LLC</h1>
+      <p>Reliable Tug Services | Salvage Operations | Maritime Tool Redistribution</p>
+    </header>
+
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li><strong>Towing:</strong> Coastal and inland towing solutions for commercial and private vessels.</li>
+          <li><strong>Salvaging:</strong> Recovery of submerged or stranded vessels and marine equipment.</li>
+          <li><strong>Refitting:</strong> Assistance in repair, refit, and preparation of marine craft and gear.</li>
+          <li><strong>Redistribution:</strong> Handling and redistribution of tools and materials related to maritime salvage and repair operations.</li>
+        </ul>
+      </section>
+
+      <section id="about">
+        <h2>About Admiral Towing</h2>
+        <p>Founded by seasoned mariner Mr. Mowbray, Admiral Towing and Salvage LLC is committed to safety, efficiency, and professionalism. With decades of experience in marine services, we operate a fleet of dependable tugboats equipped to handle everything from minor recoveries to major towage operations.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:mightytow@gmail.com">mightytow@gmail.com</a></p>
+        <p>Phone: (973) 919-1305</p>
+            <!--<p>Address: 123 Harbor Lane, Docktown, USA</p>-->
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Admiral Towing and Salvage LLC. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
